@@ -1,0 +1,82 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+@font-face{
+    font-family: "Lato";
+    src:url(Font/"Lato-Regular.ttf");
+}
+
+body{
+    background-image: url(header.jpg);
+    background-size: cover;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: bolder;
+    color: darkblue ;
+}
+/* LA BOÎTE */
+.container{
+    height: 550px;
+    width: 50%;
+    color: darkblue;
+    padding: 30px 50px;
+    margin: 20px;
+    background: white;
+    opacity: 0.8;
+}
+
+/* Je suis une boîte et toi?  */
+h1{
+    background:white;
+    text-align: center;
+    padding: 10px;
+    opacity: 1;
+    box-shadow: 2px 2px 5px 2px rgb(194, 192, 231);
+    ;       
+}
+
+
+/* Bonjour je me présente, je suis une div et je m'appelle container */
+p{  padding-top: 20px;
+    padding left: 5px;
+}
+
+/* Bonjour je me présente, je suis une div et je m'appelle container */
+p span{
+    border: 2px solid darkblue ;
+    font-size: 30px;
+    font-weight: 900 ;
+    padding : 0.6%
+}
+
+/* Mes caractéristiques */
+h2{
+    font-family: serif;
+    font-size: 25px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+
+/* Liste */
+ol{
+    line-height: 35px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+ol span{
+    background: darkblue;
+    color: cyan;
+    font-weight: bold;
+}
+
+.fondcyan{
+    background: cyan;
+    color: darkblue;
+}
+
+.white{
+    color: white;
+}
